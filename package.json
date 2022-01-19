@@ -1,0 +1,28 @@
+{
+  "name": "express-boilerplate",
+  "version": "0.1.0",
+  "description": "A Express.js Project Template. (For API Server)",
+  "main": "index.js",
+  "repository": "https://www.github.com/onehunnitconst/express-boilerplate",
+  "author": "Sangsu Baek",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "start:dev": "nodemon --exec ts-node src/index.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^17.0.10"
+  }
+}
