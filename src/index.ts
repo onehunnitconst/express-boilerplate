@@ -7,7 +7,7 @@ const port: number = 3000;
 
 app.use(cors());
 
-app.use(json());ç
+app.use(json());
 app.use(urlencoded({ extended: true }));
   
 app.use(morgan('dev'));
